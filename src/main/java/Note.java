@@ -1,6 +1,5 @@
 import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Scheduler;
-import io.reactivex.rxjava3.core.Single;
 public class Note {
 	private final String DEFAULT_FILE_NAME = "note.txt";
 	private final TextFile textFile;
